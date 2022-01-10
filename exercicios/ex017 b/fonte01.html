@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas: (cm/centímetros,in/polegadas,pt/pontos,pc/paicas,px/pixels,mm/milímetros). Para tamanhos de fonte a serem exibidos na tela, o W3C recomenda o uso do px ou do em.
+
+            Medidas relativas: (em/medida relativa {M} ao tamanho atual da fonte,ex/relativo a altura x de uma fonte {x},rem/relativo a fonte configurada no body,vw/relativo a largura da tela,vh/altura da tela{viewport})
+            16px geralmente = 1em (em/tamanho da letra normalmente)
+
+            */
+            font-size: 16px;
+            font-weight: ;/*Pesos literais: lighter, normal, bold, bolder*/
+            font-style: ;
+            
+            /*Não confunda: weight(peso),widht(largura),height(altura)*/
+            text-decoration: underline;/*sublinhado*/
+
+            h1 {
+                font-family: 'work sans'; sans-serif;
+                font-weight: bolder;
+                font-size: 3em
+                font-style: italic 
+                /*shorthand font
+                (font-style-font-weight-font-size-font-family)*/
+                font: italic 3m bolder 'work sans', sans-serif;/*no lugar de usar as quatro linhas de fonte acima, use apenas a propriedade font e especifique os valores*/
+            }
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, facere sint quod rerum error, placeat beatae nulla reprehenderit eos neque ipsa nemo veniam fuga quae recusandae cupiditate, at reiciendis dolorem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus saepe in amet id placeat obcaecati quas ratione aliquid, quo esse quod excepturi nostrum nulla dolor officia natus sapiente, iste nam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vero ratione nisi suscipit? Nesciunt eveniet eius hic natus accusantium, tenetur, molestiae accusamus asperiores at culpa cupiditate porro velit ratione expedita.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus sint, fugit doloremque tenetur aliquam neque praesentium a pariatur accusamus, dolor unde velit numquam hic distinctio magni molestiae placeat optio perferendis?</p>
+    
+</body>
+</html>
